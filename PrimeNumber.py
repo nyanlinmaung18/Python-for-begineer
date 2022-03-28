@@ -21,4 +21,4 @@ while (answer == 'y') or (answer == 'ye') or (answer =='yes'):
     num = int(input("Enter a Number: "))  #request a number from user
     isPrime(num)
     answer = input("Want to check another number y/n?: ")  #ask to user who  want to check another number or not
-    answer = answer.lower()
+    answer = answer.lower()     #change all character to lowercase
