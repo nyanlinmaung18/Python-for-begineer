@@ -18,7 +18,7 @@ def bracket_match(bracket_string):
             value = 0
     elif openingBracket != closingBracket:
         value = 1
-
+        
     print(value)
 
 bracket_match("(()())") # output is 0
